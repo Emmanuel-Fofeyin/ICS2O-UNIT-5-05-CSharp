@@ -16,7 +16,7 @@ class Program
         int lengthc;
 
         Console.WriteLine("Enter the Lengths of the sides on the triangle");
-        Console.WriteLine("to figure out what type of triangle it is.");
+        Console.WriteLine("to figure out what type of triangle it is...");
         Console.WriteLine("");
 
         Console.Write("Length 1: ");
