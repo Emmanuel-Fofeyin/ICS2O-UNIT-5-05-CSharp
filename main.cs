@@ -35,24 +35,24 @@ class Program
         }
         else
         {
-        if (lengtha == lengthb && lengthb == lengthc && lengthc == lengtha)
-        {
-            Console.Write(" It is an equilateral Triangle.");
-        }
-        else if (lengtha == lengthb || lengthb == lengthc || lengthc == lengtha)
-        {
-            Console.Write("It is an isosceles Triangle.");
-        }
-        else if (lengtha != lengthb && lengthb != lengthc && lengthc != lengtha)
-        {
-            Console.Write("It is a scalene Triangle.");
-        }
-        else
-        {
-            Console.Write("Something went wrong...");
-        }
+       if (lengtha == lengthb && lengthb == lengthc && lengthc == lengtha)
+      {
+        Console.Write(" It is an equilateral Triangle.");
+      }
+      else if (lengtha == lengthb || lengthb == lengthc || lengthc == lengtha)
+      {
+        Console.Write("It is an isosceles Triangle.");
+      }
+      else if (lengtha != lengthb && lengthb != lengthc && lengthc != lengtha)
+      {
+        Console.Write("It is a scalene Triangle.");
+      }
+      else
+      {
+        Console.Write("Something went wrong...");
+      }
 
-        Console.WriteLine("\nDone.");
+      Console.WriteLine("\nDone.");
         }
     }
 }
