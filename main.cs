@@ -31,8 +31,8 @@ class Program
                 Console.Write("Your triangle is an equilateral triangle.");
             else if (lengtha == lengthb || lengthb == lengthc || lengtha == lengthc)
                 Console.Write("Your triangle is an isosceles triangle.");
-            else
-                Console.Write("Your triangle is an isosceles triangle.");
+            else if (lengtha != lengthb && lengthb != lengthc && lengthc != lengtha)
+                Console.Write("It is a scalene Triangle.");
         else
             Console.Write("You cannot input negative numbers!");
     }
