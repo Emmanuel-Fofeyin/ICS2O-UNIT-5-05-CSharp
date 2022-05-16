@@ -36,7 +36,9 @@ class Program
                 Console.Write("It is an isosceles Triangle.");
             else if (lengtha != lengthb && lengthb != lengthc && lengthc != lengtha)
                 Console.Write("It is a scalene Triangle.");
-        else
+            else
             Console.Write("You cannot input negative numbers!");
+      
+          Console.WriteLine("\nDone.");
     }
 }
