@@ -37,15 +37,15 @@ class Program
         {
         if (lengtha == lengthb && lengthb == lengthc && lengthc == lengtha)
         {
-            Console.Write("Your triangle is an equilateral.");
+            Console.Write(" It is an equilateral Triangle.");
         }
         else if (lengtha == lengthb || lengthb == lengthc || lengthc == lengtha)
         {
-            Console.Write("Your triangle is an isosceles.");
+            Console.Write("It is an isosceles Triangle.");
         }
         else if (lengtha != lengthb && lengthb != lengthc && lengthc != lengtha)
         {
-            Console.Write("Your triangle is an scalene.");
+            Console.Write("It is a scalene Triangle.");
         }
         else
         {
