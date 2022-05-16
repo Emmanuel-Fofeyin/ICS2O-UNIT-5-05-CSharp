@@ -1,8 +1,7 @@
-// Created by: Emmanuel Fofeyion
+// Created by: Emmanuel Fofeyin
 // Created on: May 2022
 //
 // This program accepts user input
-
 
 using System;
 
@@ -10,7 +9,7 @@ class Program
 {
     public static void Main(string[] args)
     {
-        // This function accepts user input
+       // This function accepts user input
         int lengtha;
         int lengthb;
         int lengthc;
@@ -30,29 +29,17 @@ class Program
         Console.Write("");
 
         if (lengtha <= 0 || lengthb <= 0 || lengthc <= 0 )
-        {
             Console.Write("Something went wrong...");
-        }
         else
-        {
        if (lengtha == lengthb && lengthb == lengthc && lengthc == lengtha)
-      {
         Console.Write(" It is an equilateral Triangle.");
-      }
       else if (lengtha == lengthb || lengthb == lengthc || lengthc == lengtha)
-      {
         Console.Write("It is an isosceles Triangle.");
-      }
       else if (lengtha != lengthb && lengthb != lengthc && lengthc != lengtha)
-      {
         Console.Write("It is a scalene Triangle.");
-      }
       else
-      {
         Console.Write("Something went wrong...");
-      }
 
       Console.WriteLine("\nDone.");
-        }
     }
 }
