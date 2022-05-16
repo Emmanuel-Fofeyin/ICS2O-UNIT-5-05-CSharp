@@ -31,6 +31,6 @@ class Program
                 Console.Write("Your triangle is an isosceles triangle.");
             else
                 Console.Write("Your triangle is an isosceles triangle.");
-            Console.WriteLine("\nDone.");
+                Console.WriteLine("\nDone.");
     }
 }
