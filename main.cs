@@ -31,6 +31,7 @@ class Program
                 Console.Write("Your triangle is an isosceles triangle.");
             else
                 Console.Write("Your triangle is an isosceles triangle.");
-                Console.WriteLine("\nDone.");
+        else
+            Console.Write("You cannot input negative numbers!");
     }
 }
