@@ -1,4 +1,4 @@
-// Created by: Zaida Hammel
+// Created by: Emmanuel Fofeyin
 // Created on: May 2022
 //
 // This program accepts user input
