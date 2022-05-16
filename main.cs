@@ -14,7 +14,7 @@ class Program
         int lengthc;
 
         Console.Write("Enter the lengths of the sides of your triangle");
-        Console.WriteLine(" to figure out what type of triangle it is...");
+        Console.WriteLine("to figure out what type of triangle it is...");
         Console.WriteLine("");
         Console.WriteLine("");
         Console.Write("Enter side 1: ");
@@ -31,9 +31,9 @@ class Program
                 Console.Write("Your triangle is an equilateral triangle.");
             else if (lengtha == lengthb || lengthb == lengthc || lengtha == lengthc)
                 Console.Write("Your triangle is an isosceles triangle.");
-            else if (lengtha != lengthb && lengthb != lengthc && lengthc != lengtha)
-                Console.Write("It is a scalene Triangle.");
-       else
-           Console.Write("You cannot input negative numbers!");
+            else
+                Console.Write("Your triangle is an scalene triangle.");
+        else
+            Console.Write("You cannot input negative numbers!");
     }
 }
