@@ -13,8 +13,8 @@ class Program
         int lengthb;
         int lengthc;
 
-        Console.Write("Enter the lengths of the sides of your triangle.");
-        Console.WriteLine("to figure out what type of triangle it is...");
+        Console.Write("Enter the lengths of the sides of your triangle");
+        Console.WriteLine(" to figure out what type of triangle it is...");
         Console.WriteLine("");
         Console.WriteLine("");
         Console.Write("Enter side 1: ");
