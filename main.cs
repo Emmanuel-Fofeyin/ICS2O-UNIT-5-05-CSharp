@@ -13,11 +13,6 @@ class Program
         int lengthb;
         int lengthc;
 
-
-        Console.WriteLine("Enter the Lengths of the sides on the triangle");
-        Console.WriteLine("to figure out what type of triangle it is...");
-        Console.WriteLine("");
-      
         Console.Write("Enter the lengths of the sides of your triangle.");
         Console.WriteLine("");
         Console.Write("Enter length 1: ");
@@ -37,8 +32,7 @@ class Program
             else if (lengtha != lengthb && lengthb != lengthc && lengthc != lengtha)
                 Console.Write("It is a scalene Triangle.");
             else
-            Console.Write("You cannot input negative numbers!");
-      
+          Console.Write("You cannot input negative numbers!");
           Console.WriteLine("\nDone.");
     }
 }
